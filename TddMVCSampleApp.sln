@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TddMVCSampleApp", "TddMVCSampleApp\TddMVCSampleApp.csproj", "{06C6B7BB-4EC8-49FC-B796-C06370433514}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TddMVCSampleApp.Test", "TddMVCSampleApp.Test\TddMVCSampleApp.Test.csproj", "{52375B0E-6BBC-4D3D-8F78-5EBB9DAD8585}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06C6B7BB-4EC8-49FC-B796-C06370433514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C6B7BB-4EC8-49FC-B796-C06370433514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C6B7BB-4EC8-49FC-B796-C06370433514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C6B7BB-4EC8-49FC-B796-C06370433514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52375B0E-6BBC-4D3D-8F78-5EBB9DAD8585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52375B0E-6BBC-4D3D-8F78-5EBB9DAD8585}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52375B0E-6BBC-4D3D-8F78-5EBB9DAD8585}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52375B0E-6BBC-4D3D-8F78-5EBB9DAD8585}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43002F7C-2904-4853-8E4A-A55468596407}
+	EndGlobalSection
+EndGlobal

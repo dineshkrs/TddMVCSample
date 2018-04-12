@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Dinesh.Singh\source\repos\TddMVCSampleApp\TddMVCSampleApp.Test\bin\Debug\TddMVCSampleApp.Test.nunit" total="3" errors="0" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2018-04-10" time="18:22:57">
+  <environment nunit-version="2.6.2.12296" clr-version="2.0.50727.8825" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Users\Dinesh.Singh\Downloads\NUnit2Report-V1.2.2\NUnit2Report V1.2.2 release\bin" machine-name="141--FF-C40" user="Dinesh.Singh" user-domain="IND-DEL" />
+  <culture-info current-culture="en-IN" current-uiculture="en-US" />
+  <test-suite type="Project" name="C:\Users\Dinesh.Singh\source\repos\TddMVCSampleApp\TddMVCSampleApp.Test\bin\Debug\TddMVCSampleApp.Test.nunit" executed="True" result="Failure" success="False" time="0.190" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="C:\Users\Dinesh.Singh\source\repos\TddMVCSampleApp\TddMVCSampleApp.Test\bin\Debug\TddMVCSampleApp.Test.dll" executed="True" result="Failure" success="False" time="0.190" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="TddMVCSampleApp" executed="True" result="Failure" success="False" time="0.190" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Test" executed="True" result="Failure" success="False" time="0.190" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="TddMVCSampleAppTest" executed="True" result="Failure" success="False" time="0.189" asserts="0">
+                    <results>
+                      <test-case name="TddMVCSampleApp.Test.TddMVCSampleAppTest.Details" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                      <test-case name="TddMVCSampleApp.Test.TddMVCSampleAppTest.Edit" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="TddMVCSampleApp.Test.TddMVCSampleAppTest.Index_Returns_AllRows" executed="True" result="Failure" success="False" time="0.182" asserts="0">
+                        <failure>
+                          <message><![CDATA[  Expected: some item equal to <TddMVCSampleApp.Models.Book>
+  But was:  < <TddMVCSampleApp.Models.Book>, <TddMVCSampleApp.Models.Book>, <TddMVCSampleApp.Models.Book>, <TddMVCSampleApp.Models.Book> >
+]]></message>
+                          <stack-trace><![CDATA[at NUnit.Framework.CollectionAssert.Contains(IEnumerable collection, Object actual) in C:\src\nunit\nunit\src\NUnitFramework\framework\CollectionAssert.cs:line 302
+at TddMVCSampleApp.Test.TddMVCSampleAppTest.Index_Returns_AllRows() in C:\Users\Dinesh.Singh\source\repos\TddMVCSampleApp\TddMVCSampleApp.Test\TddMVCSampleAppTest.cs:line 67
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
